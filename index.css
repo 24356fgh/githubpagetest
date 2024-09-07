@@ -1,0 +1,156 @@
+.left {
+    background-image: url(../imagenes/wp7335843.webp);
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+    position: fixed;
+    top: 0;          
+    left: 0;         
+    width: 70px;    
+    height: 100vh;   
+}
+
+body {
+    background-image: url(../imagenes/degradados-wallpapers-6-800x500.jpg);
+    background-size: cover; /* La imagen se adapta a toda la página */
+    background-position: center; /* La imagen se centra */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* El fondo queda fijo mientras haces scroll */
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagenm {
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    width: 150px;   
+    height: 150px;   
+    overflow: hidden;      
+    border: 2px solid black;        
+    border: 0;
+}
+
+.title {
+    margin-left: 400px;
+}
+
+.m {
+    width: 100%;     /* Ajusta el ancho de la imagen al ancho del cuadrado */
+    height: 100%;    /* Ajusta la altura de la imagen a la altura del cuadrado */
+    object-fit: cover; /* Asegura que la imagen cubra el cuadrado sin recortarse */
+}
+
+.texto {
+    border: 0;
+}
+
+.pe {
+    margin-left: 300px;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque de fondo */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
+.p {
+    margin: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.pato {
+    background-image: url(../imagenes/milei-bullrich-abrazo-leon-pato.jpg);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 900px;
+    margin-left: 200px;
+}
+
+.prin {
+    background-image: url(../imagenes/javier-milei-1577162.jpeg);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 900px;
+    margin-left: 200px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+
+button {
+    background-image: url(../imagenes/wp7335843.webp);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    border: 1;
+    border-color: black;
+}
+
+.b1 {
+    background-image: url(../imagenes/adsf.png);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    overflow: hidden;
+}
+
+.b2 {
+    background-image: url(../imagenes/video.png);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    overflow: hidden;
+}
+
+.b3 {
+    background-image: url(../imagenes/campaña.png);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    overflow: hidden;
+}
+
+.b4 {
+    background-image: url(../imagenes/motosierra.png);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    overflow: hidden;
+}
+
+.pe2 {
+    margin-left: 300px;
+    width: 700px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque de fondo */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
+.libertad {
+    background-image: url(../imagenes/2757823.jpg);
+    background-size: contain; /* La imagen se ajusta dentro del div sin recortarse */
+    background-position: center; /* La imagen se centra dentro del div */
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 900px;
+    margin-left: 200px;
+}

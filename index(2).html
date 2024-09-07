@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de YouTube a pantalla completa</title>
+    <style>
+    body {
+        margin: 0;
+      overflow: hidden; /* Oculta las barras de desplazamiento */
+    }
+    iframe {
+        position: absolute; /* Coloca el iframe en una posición fija */
+        top: 0;
+        left: 0;
+        width: 100vw; /* Ancho completo de la ventana */
+        height: 100vh; /* Alto completo de la ventana */
+        border: none; /* Quita el borde del iframe */
+    }
+    </style>
+</head>
+<body>
+    <iframe 
+    src="https://www.youtube.com/embed/7r60zi3i7YI?autoplay=1&mute=1&loop=1&playlist=7r60zi3i7YI" 
+    allow="autoplay; fullscreen">
+    </iframe>
+</body>
+</html>
